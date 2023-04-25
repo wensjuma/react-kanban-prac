@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -12,7 +13,65 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.item {
+  margin-top: 30% !important;
+  width: 80%;
+  /* padding: 8px !important; */
+  margin: 10px !important;
+}
+.items{
+  padding: 10px;
+  background-color: #ccd3e1;
+  margin: 5px;
+  border-radius: 3px;
+  text-align: start;
+  list-style: none;
+}
+.container{
+  margin: 30px;
+}
+.action{
+  float: right !important;
+}
+.flex{
+  display: flex;
+  text-align: center !important;
+  gap: 24px;
+  margin: 20px;
+}
+.submit-btn{
+  background-color: #0b64f4;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+}
+.input{
+  padding: 8px;
+  border: solid 1px slateblue;
+  border-radius: 3px;
+  padding-right: 4px;
+  margin: 13px;
+}
 
+/* HEADER COMPONENT */
+.header{
+  width: 250px;
+  background-color: #ccd3e1;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 1px;
+gap: 45px !important;
+  padding-left: 10px;
+  padding-right:  10px;
+}
+
+
+.styleElement{
+  opacity: 0.4;
+}
+.dropContainer{
+  background-color:#f0f1f3 ;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +85,33 @@
 
 .App-link {
   color: #61dafb;
+}
+.card{
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-left: -200px ;
+}
+.card-header{
+  height: 60px !important;
+  background-color: rgb(220, 217, 214);
+}
+.card-body{
+ box-shadow: #282c34;
+ background-color: #ffffff;
+ color: #282c34;
+ border: 1px #282c34;
+ margin-top: 5px !important;
+}
+
+/* TASK STYLING */
+
+.task-listed{
+  margin-top: 4px;
+  background-color: #d6e5fd;
+  border: 1px solid #BFBFBF;
+  box-shadow: 1px 2px 3px #aaaaaa;
+  border-radius: 3px;
+  text-align:center;
 }
 
 @keyframes App-logo-spin {
